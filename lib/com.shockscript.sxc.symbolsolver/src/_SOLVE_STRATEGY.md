@@ -2,7 +2,15 @@
 
 ## Lexical References
 
-By default, a lexical reference resolves to a variable, virtual or method slot, except where type expressions are expected. When the context tells the dot operator follows the lexical reference, then the lexical reference resolves to either a type, module, variable slot, virtual slot or method slot, based on which declaration supports the member name of the dot operator.
+By default, a lexical reference resolves to a variable, virtual or method slot, except where type expressions are expected. If the lexical reference does not resolve to either of these, then it can still resolve to a module or type.
+
+As a convenience, to desambiguate namespace and local, the programmer may use the `n_` prefix to alias the module:
+
+```
+Imports n_App = App
+App = New n_App.App
+n_App.F App
+```
 
 ## Conversions
 
