@@ -48,8 +48,6 @@
   - [x] `createFunctionSignature`
   - [x] Types
     - [x] `createAnyType`
-    - [x] `createEmptyType`
-    - [x] `createNothingType`
     - [x] `createNullType`
     - [x] `createClass`
     - [x] `createStructure`
@@ -113,8 +111,6 @@
     - [x] `isWithFrame`
   - [x] `isType`
     - [x] `isAnyType`
-    - [x] `isEmptyType`
-    - [x] `isNothingType`
     - [x] `isNullType`
     - [x] `isClass`
     - [x] `isStructure`
@@ -179,8 +175,6 @@
     - [x] Function signature
     - [x] Type
       - [x] Any type
-      - [x] Empty type
-      - [x] Nothing type
       - [x] Null type
       - [x] Class
       - [x] Structure
